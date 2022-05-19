@@ -16,11 +16,11 @@ author_notes:
   - 'City University of Hong Kong'
 
 
-date: '2020.07.01'
+date: '2020-07-01T00:00:00Z'
 doi: 'https://doi.org/10.1142/q0318'
 
 # Schedule page publish date (NOT publication's date).
-# publishDate: '2020'
+publishDate: '2021-07-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
