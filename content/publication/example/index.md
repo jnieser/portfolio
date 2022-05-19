@@ -1,5 +1,5 @@
 ---
-title: 'COVID-19 Effects on Financial Markets: An Intraday Analysis (2020)'
+title: 'COVID-19 Effects on Financial Markets: An Intraday Analysis'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -16,6 +16,7 @@ author_notes:
   - 'City University of Hong Kong'
 
 
+date: '2020.07.01'
 doi: 'https://doi.org/10.1142/q0318'
 
 # Schedule page publish date (NOT publication's date).
