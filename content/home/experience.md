@@ -32,11 +32,10 @@ experience:
     description: |2-
         Responsibilities include:
     
-        * Applied Machine Learning on stock dataset to extract signals and designed algorithms to profit by trading on signals.
-        * Cleaned 151 Mb raw csv data, design features and coded a systematic algorithm to obtain signals to maximize correlation with price change, such correlation coefficient reached around 50% with XGBoost model.
-        * Achieved 10% 4-month return in tested sample in ETF through developing an algorithm to process the signal collected.
-        * Improved the speed for searching optimal parameters by over 50% through rewriting algorithms in Numba package.
-        * Optimized the cost function of a genetic algorithm method to include rank correlation and information ratio and yield 100% profit return in training set after applying the modified genetic algorithm.
+        * Panel Data Analysis
+        * Machine Learning Model Building
+        * Quant Trading Algorithm Design
+        * Efficiency Improvement by Numba
 
   - title: Computer Vision Research Intern
     company: Tencent
@@ -48,8 +47,21 @@ experience:
     description: |2-
         Responsibilities include:
     
-        * Researched on the architecture of Neural Network and applied to detect facial log-in attacks like using a picture to log in.
-        * Improved the original classification framework by reapplying ResNet through pyTorch and trained on GPU through Cuda.
+        * Deep Learning Research
+        * Anti-Facial Recognition Spoofing Attack Research
+
+  - title: Data Analyst Intern
+    company: Alibaba
+    company_url: 'https://www.alibaba.com/'
+    company_logo: alibaba
+    location: Shanghai, China
+    date_start: '2018-07-01'
+    date_end: '2018-10-01'
+    description: |2-
+        Responsibilities include:
+    
+        * Default Risk Modelling
+        * Data Pipeline
 
 design:
   columns: '2'
