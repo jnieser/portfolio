@@ -16,7 +16,7 @@ links:
   - icon: github
     icon_pack: fab
     name: Code
-    url: https://github.com/jnieser
+    url: https://github.com/jnieser/AirbnbProject/blob/main/AirbnbProject.ipynb
 url_code: ''
 url_pdf: ''
 url_slides: ''
