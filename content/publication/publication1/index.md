@@ -31,10 +31,10 @@ publication_types: ['6']
 # Publication name and optional abbreviated publication name.
 publication: In *Financial Transformations beyond the Covid-19 Health Crisis*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This chapter investigates the stock market implications of COVID-19 using high-frequency data. Our analysis covers three aspects. First, we compare intraday volatility patterns of the S&P 500 during COVID-19 with those before COVID-19. Second, we document changes to intraday return predictability of the S&P 500 before and during COVID-19. Third, we examine the Heston (1993) stochastic volatility model during COVID-19 and compare to previous market events. Our empirical findings suggest that, during COVID-19, there is more disagreement among market participants in processing new information, and market makers are more concerned about inventory risk.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags: []
 
@@ -79,4 +79,4 @@ slides: example
 ---
 
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+#Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
