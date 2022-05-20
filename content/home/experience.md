@@ -29,7 +29,9 @@ experience:
     location: Shanghai, China
     date_start: '2019-12-01'
     date_end: '2020-09-01'
-    description:        
+    description: |2-
+        Responsibilities include:
+    
         * Applied Machine Learning on stock dataset to extract signals and designed algorithms to profit by trading on signals.
         * Cleaned 151 Mb raw csv data, design features and coded a systematic algorithm to obtain signals to maximize correlation with price change, such correlation coefficient reached around 50% with XGBoost model.
         * Achieved 10% 4-month return in tested sample in ETF through developing an algorithm to process the signal collected.
@@ -43,7 +45,9 @@ experience:
     location: Shanghai, China
     date_start: '2019-06-01'
     date_end: '2019-09-01'
-    description: 
+    description: |2-
+        Responsibilities include:
+    
         * Researched on the architecture of Neural Network and applied to detect facial log-in attacks like using a picture to log in.
         * Improved the original classification framework by reapplying ResNet through pyTorch and trained on GPU through Cuda.
 
