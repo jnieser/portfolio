@@ -6,7 +6,7 @@ title: Jiayang Nie
 superuser: true
 
 # Role/position/tagline
-role: Intern Machine Learning Engineer
+role: Machine Learning Engineer Intern
 
 # Organizations/Affiliations to show in About widget
 organizations:
