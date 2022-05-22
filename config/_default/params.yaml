@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Jiayang Nie.'
     license:
       enable: true
       allow_derivatives: false
@@ -53,7 +53,7 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: 'May 20, 2022'
   time_format: '3:04 PM'
   address_format: en-us
 
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/jnieser/portfolio'
     content_dir: content
     branch: master
   avatar:
@@ -84,7 +84,7 @@ features:
     commento:
       url: ''
   search:
-    provider: wowchemy
+    provider: google
     algolia:
       app_id: ''
       api_key: ''
