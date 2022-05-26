@@ -1,5 +1,5 @@
 ---
-title: Example Project
+title: Why does the degrees of freedom in Linear Regression equal n-p?
 summary: An example of using the in-built project page.
 tags:
   - Deep Learning
