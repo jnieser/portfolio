@@ -17,7 +17,7 @@ content:
   filters:
     folders:
       - post
-    tag: 'Machine Learning', 'Linear Regression'
+    tag: ''
     category: ''
     publication_type: ''
     author: ''

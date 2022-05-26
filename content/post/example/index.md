@@ -1,22 +1,18 @@
 ---
 title: Why does the degrees of freedom in Linear Regression equal n-p?
-summary: An example of using the in-built project page.
+summary: Linear Regression
 tags:
-  - Deep Learning
-date: '2016-04-27T00:00:00Z'
+date: '2022-05-25T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: R
   focal_point: Smart
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Follow
-    url: https://twitter.com/georgecushen
+
 url_code: ''
 url_pdf: ''
 url_slides: ''
