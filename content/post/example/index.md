@@ -26,14 +26,20 @@ url_video: ''
 slides: example
 ---
 
-$$\gamma_{n} = \beta$$
+If we run linear regression in R, then we will see a term in the report "degrees of freedom" and that value equals n-p where n is the number of observations (data points) and p is the number of parameters (including intercept).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+But what does it mean? How is it useful?
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+1. Measure $$\sigma$$
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+Under the Gauss-Markov model, which states $$y_i = x_i^{T}\beta+\epsilon_i$$ where $$\epsilon$$ are iid errors centered at zero with variance $$\sigma$$. Here, $$x_i$$ and $$\beta$$ are all assumed determined. $$\epsilon_i$$ are the randomness here, which cause y to be random.
 
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+With the widely known $$(X^TX)^{-1}X^TY$$ formula, one can derive the BLUE estimator $$\hat{\beta}$$ for $$\beta$$ and obtain estimated residual $$\hat{\epsilon$$}$$. Then, how can we estimate $$\sigma$$? We have RSS, which is the residual sum of squares but what's next?
 
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+A short answer is: $$E(\frac{RSS}{n-p}) = \sigma$$. Here, the denominator is the degree of freedom. Proof follows from the fact that $$cov(\hat{\epsilon))=\sigma^2 (I_n-H)$$, where H is the projection matrix and error term centers at zero.
+
+To make the proof easier, let us further assume error terms follow normality. Then, $$RSS=\sum_{i=1}^{N}\hat{\epsilon}$$ is similar to a chi-square distribution. Note, chi-square distribution with l degree of freedom means sum of l standard normal's square.
+
+But they are not identically the same. Actually, $$\frac{RSS}{\sigma^2} \sim \chi_{n-p}$$
+
+2. 
