@@ -1,6 +1,6 @@
 ---
 title: Why does the degrees of freedom in Linear Regression equal n-p?
-summary: Linear Regression
+summary: Linear Regression Stuff
 tags:
 date: '2022-05-11T00:00:00Z'
 
@@ -44,7 +44,7 @@ But they are not identically the same. Actually, $\frac{RSS}{\sigma^2} \sim \chi
 
 2. Answer: Hypothesis Testing for $\hat{\beta}$
 
-$\frac{\hat{\beta} - \beta}{\sqrt{\hat{\sigma^2}}(X^TX)^{-1}} \sim t_{n-p}
+$\frac{\hat{\beta} - \beta}{\sqrt{\hat{\sigma^2}}(X^TX)^{-1}} \sim t_{n-p}$
 
 n-p is also the degree of freedom of t distribution for testing whether $\beta$ is zero. Note, t distribution $t_{n-p}=\frac{N(0,1)}{\sqrt{\chi^2_{n-p}/(n-p)}}$. The n-p comes from the same chi-square distribution as we mentioned above.
 
