@@ -28,9 +28,9 @@ slides: example
 
 If we run linear regression in R, then we will see a term in the report "degrees of freedom" and that value equals n-p where n is the number of observations (data points) and p is the number of parameters (including intercept).
 
-But what does it mean? How is it useful?
+But what does it mean? How is it useful? 
 
-1. Measure $\sigma$
+1. Answer: Measure $\sigma^2$
 
 Under the Gauss-Markov model, which states $y_i = x_i^{T}\beta+\epsilon_i$ where $\epsilon$ are iid errors centered at zero with variance $\sigma$. Here, $x_i$ and $\beta$ are all assumed determined. $\epsilon_i$ are the randomness here, which cause y to be random.
 
@@ -38,6 +38,8 @@ With the widely known $(X^TX)^{-1}X^TY$ formula, one can derive the BLUE estimat
 
 A short answer is: $E(\frac{RSS}{n-p}) = \sigma^2$. Here, the denominator is the degree of freedom. Proof follows from the fact that $cov(\hat{\epsilon))=\sigma^2 (I_n-H)$, where H is the projection matrix and error term centers at zero.
 
-To make the proof easier, let us further assume error terms follow normality. Then, $RSS=\sum_{i=1}^{N}\hat{\epsilon}$ is similar to a chi-square distribution. Note, chi-square distribution with l degree of freedom means sum of l standard normal's square.
+To make the proof easier, let us further assume error terms follow normality. Then, $RSS=\sum_{i=1}^{N}\hat{\epsilon^2}$ is similar to a chi-square distribution. Note, chi-square distribution with l degree of freedom means sum of l standard normal's square.
 
 But they are not identically the same. Actually, $\frac{RSS}{\sigma^2} \sim \chi_{n-p}$ because the trace of (1-H) is n-p. $E(\chi_{n-p})=n-p$ so $E(\frac{RSS}{n-p}) = \sigma^2$
+
+2. Answer: Hypothesis Testing of $\hat{\beta}$
