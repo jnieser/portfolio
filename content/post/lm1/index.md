@@ -2,7 +2,7 @@
 title: Why does the degrees of freedom in Linear Regression equal n-p?
 summary: Linear Regression Stuff
 tags:
-date: '2022-05-11T00:00:00Z'
+date: '2022-05-11'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
