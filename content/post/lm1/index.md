@@ -1,7 +1,6 @@
 ---
 title: Why does the degrees of freedom in Linear Regression equal n-p?
 summary: The degree of freedom represents the number of "free" or independent $N(0,1)^2$ in the residuals from linear regression.
-date: 2022-05-25
 math: true
 highlight: true
 ---

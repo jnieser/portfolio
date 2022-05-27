@@ -1,7 +1,6 @@
 ---
 title: What to do when there exists spill-over effect in your ab-testing?
-summary: 
-date: 2022-05-26
+summary:
 math: true
 highlight: true
 image:
