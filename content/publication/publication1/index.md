@@ -17,7 +17,7 @@ author_notes:
 
 
 date: '2020-07-01T00:00:00Z'
-doi: 'www.worldscientific.com/doi/10.1142/9781800610781_0008'
+doi: 'https://doi.org/10.1142/q0318'
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2021-07-01T00:00:00Z'
