@@ -5,7 +5,7 @@ math: true
 highlight: true
 ---
 
-If we run linear regression in R, then we will see a term in the report "degrees of freedom" and that value equals n-p where n is the number of observations (data points) and p is the number of parameters (including intercept).
+If we run linear regression in R, then we will see a term in the report "degrees of freedom" and that value equals n-p where n is the number of observations (data points) and p is the number of parameters (including intercept). 
 
 But what does it mean? How is it useful? 
 

@@ -20,7 +20,8 @@ organizations:
 interests:
   - Causal Inference
   - Machine Learning
-  - Computer Vision
+  - Deep Learning
+  - Quantitative Finance
 
 # Education to show in About widget
 education:
@@ -37,6 +38,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
+  - icon: medium
+    icon_pac: fab
+    link: https://medium.com/@niejiayang32
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/nejeye/
@@ -61,6 +65,6 @@ email: 'jnie@berkeley.edu'
 highlight_name: true
 ---
 
-Jiayang Nie is a M.A. and B.A. in Statistics at UC Berkeley. He is passionate about being a Data Scientist and he is interested in causal inference, machine learning, and computer vision.
+Jiayang Nie is a M.A. and B.A. in Statistics at UC Berkeley. He is passionate about Data Science and Machine Learning.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

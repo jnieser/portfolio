@@ -7,7 +7,7 @@ image:
   placement: 2
   caption: 'Image credit: [**Dennis Meisner**](https://towardsdatascience.com/ab-testing-challenges-in-social-networks-e67611c92916)'
 ---
-A/B testing is a powerful decision-making tool. However, if social network spill-over effect exists, then the average treatment effect will be **underestimated**. This is because the control group will also be exposed to some condition of treatment.
+A/B testing is a powerful decision-making tool. However, if social network spill-over effect exists, then the average treatment effect will be **underestimated**. This is because the control group will also be exposed to some condition of treatment. 
 
 The question is: ***how to solve it?*** I have seen two ways of how this can be approached. First approach completely eliminate spill-over effect. The second approach is to directly measure the spill-over effect.
 

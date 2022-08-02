@@ -22,7 +22,22 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Research Intern, Machine Learning
+  - title: Machine Learning Engineer Intern
+    company: Vizio
+    company_url: 'https://www.vizio.com/'
+    company_logo: vizio
+    location: San Francisco, China
+    date_start: '2022-06-01'
+    date_end: '2022-08-31'
+    description: |2-
+        Responsibilities include:
+    
+        * User Engagement Behavior Analysis
+        * Video Game Detection with Approximate Nearest Neighbor and Transformer
+        * Multi-Layer ML Model Pipeline
+        * Dicision Boundary Smoothing and Data Augmentation
+
+  - title: Quantitative Researcher Intern
     company: Guotai Junan Securities
     company_url: 'https://www.gtja.com/'
     company_logo: gtja
@@ -36,8 +51,9 @@ experience:
         * Machine Learning Model Building
         * Quant Trading Algorithm Design
         * Efficiency Improvement by Numba
+        * Genetic Programming Design and Evaluation
 
-  - title: Computer Vision Research Intern
+  - title: Computer Vision Researcher Intern
     company: Tencent
     company_url: 'https://www.tencent.com/en-us/'
     company_logo: tencent
