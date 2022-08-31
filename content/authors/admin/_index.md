@@ -39,7 +39,7 @@ education:
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
   - icon: medium-m
-    icon_pac: far
+    icon_pac: fas
     link: https://medium.com/@niejiayang32
   - icon: instagram
     icon_pack: fab
